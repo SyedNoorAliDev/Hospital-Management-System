@@ -1,0 +1,2 @@
+Name,Admin ID,Password,Gender,City,Contact,Address
+Syed,ADM-111,plokj89,Male,Lahore,93483948,Lahore

@@ -1,0 +1,3 @@
+Name,Admin ID,Password,Gender,City,Contact,Address,Duration Of Service
+
+Syed,ADMIN-109,plokuj,Male,Lahore,09987654320,Lahore,1-yrs

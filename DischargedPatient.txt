@@ -1,0 +1,4 @@
+Patient Name,Patient ID,City,Gender,Address,Contact,Ward,Under Supervision,Complaints,Allergies,Surgeries,Immunization,Drugs,Stay Period
+cccc,cccc,cccc,cccc,cccc,cccc,cccc,cccc,a,b,c,d,e,10 days
+ana,ONC-987,Lahore,Female,Lahore,0998-7654231,Oncology,Hali,a,b,c,d,e,10 days
+aaaa,aaaa,aaaa,aaaa,aaaa,aaaa,aaaa,aaaa,e,f,g,h,i,9 days

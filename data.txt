@@ -1,0 +1,4 @@
+   Patient Name Patient ID    City        Gender Address  Contact     Ward Under Supervision Complaints Allergies Surgeries Immunization   Drugs
+7           wef       wfef   wfewf         wfwef   wfwef    wfwef    wefwe              Syed      wefwf    wefewf    wefewf       wefewf  wefewf
+9          noor    wdfwwdc   scdsc      scsdcdsc  scccdc  sscsdcs   sddcsc              Syed   kukiuiki       yhy    hnyhyh          yhy    yhyh
+10         asad     asdsdf  sdfsdf  sdfdsfsdfsdf    fdsf    adfaf  safadsf              Syed  safsdfsdf     fadsf    sdfgsg        sgfds     dfg

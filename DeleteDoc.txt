@@ -1,0 +1,3 @@
+Name,Doctor ID,Password,City,Gender,Address,Contact,Ward,Qualification,Experience
+sfdsf,sdfdsf,retret,fjghj,vcbxcv,asdsaffd,fdddfh,retyrerwda,gj,klop
+Noman,ONC-123,Karachi,Male,Lahore,0998-9876509,Dengue,MBBS,9 Yrs,lopk
