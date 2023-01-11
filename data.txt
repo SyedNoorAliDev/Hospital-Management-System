@@ -1,4 +1,2 @@
-   Patient Name Patient ID    City        Gender Address  Contact     Ward Under Supervision Complaints Allergies Surgeries Immunization   Drugs
-7           wef       wfef   wfewf         wfwef   wfwef    wfwef    wefwe              Syed      wefwf    wefewf    wefewf       wefewf  wefewf
-9          noor    wdfwwdc   scdsc      scsdcdsc  scccdc  sscsdcs   sddcsc              Syed   kukiuiki       yhy    hnyhyh          yhy    yhyh
-10         asad     asdsdf  sdfsdf  sdfdsfsdfsdf    fdsf    adfaf  safadsf              Syed  safsdfsdf     fadsf    sdfgsg        sgfds     dfg
+    Name Doctor ID Password    City Gender Address Contact Ward Qualification Experience
+0  Haqan   KIL-908   lah987  Lahore   male     90]    0987   09           plo       plos

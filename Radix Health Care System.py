@@ -6,6 +6,7 @@ logos=PhotoImage(file='fixed orange.png')
 # Pic=PhotoImage(file="laboratory.png")
 #-----------------------------------------------------------
 
+#Starting Page Function/Command
 def startingpage():
     
     def othr_labs():
@@ -15,14 +16,14 @@ def startingpage():
             screen=Tk()
             screen.title("LABORATORY")
 
-            screen.geometry("1255x944")
+            screen.geometry("900x900")
 
             
 
             mainframe=Frame(screen,bg="white",width="1300",height="1200")
             mainframe.place(x=1,y=1)
             Pic=PhotoImage(file="laboratory.png")
-            imagelabel=Label(mainframe,text="R A D I X   L A B O R A T O R Y",font=("Times New Roman",40),fg="BLUE",bg="white")
+            imagelabel=Label(mainframe,text="R A D I X   L A B O R A T O R Y",font=("Poppins",40),fg="BLUE",bg="white")
             imagelabel.place(x=275,y=20)
 
 
@@ -34,17 +35,17 @@ def startingpage():
                 root=Tk()
                 root.title("Laboratory Calculator")
                 root.geometry("1255x944")
-                imagelabel=Label(root,text="R A D I X   L A B O R A T O R Y   CALCULATOR ",font=("Times New Roman",40),fg="BLUE",bg="white")
+                imagelabel=Label(root,text="R A D I X   L A B O R A T O R Y   CALCULATOR ",font=("Poppins",40),fg="BLUE",bg="white")
                 imagelabel.place(x=78,y=20)
-                entry=Entry(root,font=("Times New Roman",20))
+                entry=Entry(root,font=("Poppins",20))
                 entry.place(x=480,y=140)
 
-                label=Label(root,font=("Times New Roman",20))
+                label=Label(root,font=("Poppins",20))
                 def bill():
                     
                     label.config(text='Rs.'+str(eval(entry.get())))
                     label.place(x=580,y=240)
-                button=Button(root,text="GENERATE BILL",font=("Times New Roman",20),command=bill,bg="blue",fg="white")
+                button=Button(root,text="GENERATE BILL",font=("Poppins",20),command=bill,bg="blue",fg="white")
                 button.place(x=500,y=190)
                 
 
@@ -110,7 +111,7 @@ def startingpage():
                 file.write(f"\n{patientname},{patientage},{requiredtest}")
                 file.close()
                 
-                messagebox.showinfo("RADIX LABORATORY!","A patient has been registered successfully")
+                messagebox.showinfo("RADIX LABORATORY!","A patient has been registered successfully" )
                 
 
                     
@@ -372,23 +373,24 @@ def startingpage():
             loglab.destroy()
             
         loglab=Tk()
-        loglab.geometry('900x600')
+        loglab.geometry('500x430')
+        loglab.title("Lab Facilities")
         
         labsframe=Frame(loglab)
         labsframe.pack(expand=TRUE,fill=BOTH)
 
 
 
-        specifybelowradixlabel=Label(labsframe,text='Select Labs/Donation Facilities',font=('Drexs',30))
+        specifybelowradixlabel=Label(labsframe,text='Select Labs/Donation Facilities',font=('poppins',20))
         specifybelowradixlabel.pack(pady=15)
 
-        specown=Button(labsframe,height=2,width=27,text='Blood Donation',bg='#ED7020',fg='white',font=('Orbitron',12),command=Blood_Donations)
+        specown=Button(labsframe,height=2,width=27,text='Blood Donation',bg='#0081B4',fg='white',font=('Orbitron',12),command=Blood_Donations)
         specown.pack(pady=15)
       
-        specadmin=Button(labsframe,height=2,width=27,text='Laboratory',bg='#ED7020',fg='white',font=('Orbitron',12),command=laboratory)
-        specadmin.pack(pady=15)
+        specadmin=Button(labsframe,height=2,width=27,text='Laboratory',bg='#0081B4',fg='white',font=('Orbitron',12),command=laboratory)
+        specadmin.pack(pady=15) 
         
-        specfinan=Button(labsframe,height=2,width=27,text='Financial Assistance',bg='#ED7020',fg='white',font=('Orbitron',12),command=financ)
+        specfinan=Button(labsframe,height=2,width=27,text='Financial Assistance',bg='#0081B4',fg='white',font=('Orbitron',12),command=financ)
         specfinan.pack(pady=15)
 
 
@@ -550,7 +552,7 @@ def startingpage():
             infops.pack()
             
             
-            searchbutton=Button(framedisown,width=35,pady=7,text='Login and View',bg='#ED7020',fg='white',border=0,command=doc_creds)
+            searchbutton=Button(framedisown,width=35,pady=7,text='Login and View',bg='#0081B4',fg='white',border=0,command=doc_creds)
             searchbutton.pack(pady=5)
 
             clearbutton=Button(framedisown,width=20,pady=7,text='Clear',bg='#ED7020',fg='white',border=0,command=clear_display_of_doc_pr)
@@ -574,9 +576,9 @@ def startingpage():
             
             
             #new page prefrences
-            log.title("Signin")
+            log.title("Owner's Login")
             log.configure(bg='white')
-            log.geometry('925x600')
+            log.geometry('500x500')
             log.resizable(False,False)
             #------------------------------------------------------------
             def back():
@@ -2294,9 +2296,9 @@ def startingpage():
             specdoc.destroy()
             backing_button_to_welcome_page.destroy()
             screen1=Tk()
-            screen1.title("ADMIN LOGIN")
+            screen1.title("Admin's Login")
 
-            screen1.geometry("900x600")
+            screen1.geometry("500x500")
 
 
 
@@ -2334,7 +2336,7 @@ def startingpage():
                         messagebox.showinfo("Incorrect Credentials!")
                     else:
                         display=Tk()
-                        display.geometry('900x600')
+                        display.geometry('500x500')
                         
                         def add_patie():
                             screen=Tk()
@@ -2581,22 +2583,7 @@ def startingpage():
 
                         logout=Button(display,text="Logout",fg="white",bg="orange",height="1",font="bold",command=back_to_admin_loggin)
                         logout.place(x=530,y=380)
-                    
-
-
-
-
-
-
-                    
-
-                    
-
-
-
-
-
-                
+                      
             emaillabel=Label(screen1,text="Email",font="bold")
             emaillabel.pack()
 
@@ -2627,7 +2614,7 @@ def startingpage():
         radixlogo=Label(specifyingframe,image=logos)
         radixlogo.pack()
 
-        specifybelowradixlabel=Label(specifyingframe,text='Go to Your Concerned Portal',font=('Drexs',30))
+        specifybelowradixlabel=Label(specifyingframe,text='Go to Your Concerned Portal',font=('Poppins',20))
         specifybelowradixlabel.pack(pady=15)
 
         specown=Button(specifyingframe,height=2,width=27,text='Owner Login',bg='#ED7020',fg='white',font=('Orbitron',12),command=loginpage)
@@ -2641,16 +2628,16 @@ def startingpage():
         specdoc.pack(pady=20)
 
 
+
         backing_button_to_welcome_page=Button(specifyingframe,width=10,pady=7,text='⬅Back',bg='#ED7020',fg='white',border=0,command=back_to_wc)
         backing_button_to_welcome_page.pack()
     
         
-    log.geometry('925x600')
-    log.resizable(False,False)
+    log.geometry('500x500')
     log.title("Redix Health Care System")
     
 
-    pleaseselect=Label(log,text='Welcome to Redix',font=('Drexs',30))
+    pleaseselect=Label(log,text='Welcome to Radix',font=('poppins',30))
     pleaseselect.pack(ipady=2)
 
 
